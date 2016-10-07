@@ -1,19 +1,19 @@
-22:21:16,482 INFO  [org.hornetq.integration.bootstrap] HQ101000: Starting HornetQ Server
-22:21:19,293 WARN  [org.hornetq.core.server] HQ222018: AIO was not located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
-22:21:19,536 INFO  [org.hornetq.core.server] HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=../data/journal,bindingsDirectory=../data/bindings,largeMessagesDirectory=../data/large-messages,pagingDirectory=../data/paging)
-22:21:19,536 INFO  [org.hornetq.core.server] HQ221006: Waiting to obtain live lock
-22:21:20,037 INFO  [org.hornetq.core.server] HQ221013: Using NIO Journal
-22:21:20,100 WARN  [org.hornetq.core.server] HQ222007: Security risk! HornetQ is running with the default cluster admin user and default password. Please see the HornetQ user guide, cluster chapter, for instructions on how to change this.
-22:21:20,138 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support CORE
-22:21:20,153 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support AMQP
-22:21:20,153 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support STOMP
-22:21:20,535 INFO  [org.hornetq.core.server] HQ221034: Waiting to obtain live lock
-22:21:20,536 INFO  [org.hornetq.core.server] HQ221035: Live Server Obtained live lock
-22:21:22,594 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.DLQ
-22:21:22,641 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.ExpiryQueue
-22:21:22,818 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.CS3213SimpleQueue
-22:21:22,828 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.topic.CS3213SimpleTopic
-22:21:23,332 INFO  [org.hornetq.core.server] HQ221020: Started Netty Acceptor version 4.0.13.Final localhost:5455
-22:21:23,352 INFO  [org.hornetq.core.server] HQ221020: Started Netty Acceptor version 4.0.13.Final localhost:5445
-22:21:23,352 INFO  [org.hornetq.core.server] HQ221007: Server is now live
-22:21:23,352 INFO  [org.hornetq.core.server] HQ221001: HornetQ Server version 2.5.0.SNAPSHOT (Wild Hornet, 124) [be4be055-8c98-11e6-ba83-0918de8b2933] 
+22:51:36,139 INFO  [org.hornetq.integration.bootstrap] HQ101000: Starting HornetQ Server
+22:51:38,660 WARN  [org.hornetq.core.server] HQ222018: AIO was not located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+22:51:39,035 INFO  [org.hornetq.core.server] HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=../data/journal,bindingsDirectory=../data/bindings,largeMessagesDirectory=../data/large-messages,pagingDirectory=../data/paging)
+22:51:39,041 INFO  [org.hornetq.core.server] HQ221006: Waiting to obtain live lock
+22:51:39,399 INFO  [org.hornetq.core.server] HQ221013: Using NIO Journal
+22:51:39,451 WARN  [org.hornetq.core.server] HQ222007: Security risk! HornetQ is running with the default cluster admin user and default password. Please see the HornetQ user guide, cluster chapter, for instructions on how to change this.
+22:51:39,494 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support CORE
+22:51:39,501 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support AMQP
+22:51:39,522 INFO  [org.hornetq.core.server] HQ221043: Adding protocol support STOMP
+22:51:39,828 INFO  [org.hornetq.core.server] HQ221034: Waiting to obtain live lock
+22:51:39,829 INFO  [org.hornetq.core.server] HQ221035: Live Server Obtained live lock
+22:51:44,395 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.DLQ
+22:51:44,540 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+22:51:44,851 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.queue.CS3213SimpleQueue
+22:51:44,855 INFO  [org.hornetq.core.server] HQ221003: trying to deploy queue jms.topic.CS3213SimpleTopic
+22:51:46,175 INFO  [org.hornetq.core.server] HQ221020: Started Netty Acceptor version 4.0.13.Final localhost:5455
+22:51:46,191 INFO  [org.hornetq.core.server] HQ221020: Started Netty Acceptor version 4.0.13.Final localhost:5445
+22:51:46,197 INFO  [org.hornetq.core.server] HQ221007: Server is now live
+22:51:46,199 INFO  [org.hornetq.core.server] HQ221001: HornetQ Server version 2.5.0.SNAPSHOT (Wild Hornet, 124) [be4be055-8c98-11e6-ba83-0918de8b2933] 

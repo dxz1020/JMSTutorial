@@ -2,7 +2,7 @@
 setlocal ENABLEDELAYEDEXPANSION
 REM This batch file is adapted from run.bat from /bin in HornetQ.
 REM [TODO] Set your HornetQ home folder below
-SET HORNETQ_HOME=C:\Users\Duan\Desktop\workspace\JMSTutorial\hornetq-2.4.0.Final
+SET HORNETQ_HOME=C:\hornetq-2.4.0.Final
 SET MY_CONFIG_DIR=.\server
 SET CONFIG_DIR=%HORNETQ_HOME%\config\stand-alone\non-clustered
 REM Server config files are loaded as long as they are in classpath
