@@ -1,4 +1,4 @@
-package cs3213.jms.queue;
+package cs3219.jms.queue;
 
 import java.util.Properties;
 import javax.jms.*;

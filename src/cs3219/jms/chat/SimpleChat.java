@@ -1,4 +1,4 @@
-package cs3213.jms.chat;
+package cs3219.jms.chat;
 
 import javax.jms.*;
 import javax.naming.*;
