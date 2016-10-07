@@ -16,6 +16,12 @@ public class Order {
         return new Order(customerName, productName);
     }
     
+    public void setCustomerName(String name){
+    	this.customerName=name;
+    }
+    public void setProductName(String productName){
+    	this.productName=productName;
+    }
     public String toString() {
         return customerName + "," + productName;
     }
